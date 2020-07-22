@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:text="Update Task"
+        android:gravity="center"
+        android:background="#F5BCBA"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:text="Task"/>
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+
+
+            <EditText
+                android:id="@+id/mEditTextTask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+               />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textColor="#000"
+                android:text="Description"/>
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3">
+
+
+            <EditText
+                android:id="@+id/mEditTextDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+               />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:text="Delete"
+                android:textAllCaps="false"
+                android:background="#F5BCBA"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btnUpdate"
+                android:text="Update"
+                android:textAllCaps="false"
+                android:background="#F5BCBA"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

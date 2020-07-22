@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3B431"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#B621CD"
+        android:id="@+id/RegisterToolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:src="@drawable/splash"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:layout_height="100dp"/>
+
+    <EditText
+        android:id="@+id/RegisterEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:background="@drawable/inputs"/>
+
+
+
+    <EditText
+        android:id="@+id/RegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:layout_margin="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/ic_lock_"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:background="@drawable/inputs"/>
+
+
+    <Button
+        android:id="@+id/RegisterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:text="Register"/>
+
+
+    <TextView
+        android:id="@+id/RegisterPageQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already Have an Account? Login"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        />
+
+
+</LinearLayout>

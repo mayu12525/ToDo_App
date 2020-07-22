@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3B431"
+    tools:context=".LoginActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginToolbar"
+        android:backgroundTint="#F3B431"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:src="@drawable/splash"
+        android:padding="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:layout_height="100dp"/>
+
+    <EditText
+        android:id="@+id/loginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:background="@drawable/inputs"/>
+
+
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:layout_margin="10dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textPassword"
+        android:drawableStart="@drawable/ic_lock_"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:background="@drawable/inputs"/>
+    
+    
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:background="#fff"
+        android:text="Login"/>
+
+
+    <TextView
+        android:id="@+id/loginPageQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't Have an Account? Register"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>
